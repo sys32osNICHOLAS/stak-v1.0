@@ -1,0 +1,28 @@
+<html>
+<meta charset="utf-8">
+<title>Угадайка</title>
+
+<script>
+	var number = Math.floor(Math.random () * 100) + 1 ;
+	console.log (number) ;
+
+ 
+	while (user_number != number){
+
+	var user_number = prompt ('Какое число загадано?(от 1 до 100)', 50);
+
+	if  ((user_number > 0)&&(user_number <= 100)){
+		if (user_number == number){
+			alert('Вы угодали');
+		}else if ( user_number > number){
+			alert('Загаданое число меньше');
+		}else {
+			alert('Загаданое число больше');
+		}
+	}else{
+		alert('Неверный ввод') ;
+	}
+}
+</script>
+
+</html>
