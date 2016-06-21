@@ -1,2 +1,0 @@
-# testprogramm
-Будем пытаться &lt;/
